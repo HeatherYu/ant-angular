@@ -10,14 +10,19 @@ import { registerLocaleData } from '@angular/common';
 import zh from '@angular/common/locales/zh';
 
 import { AppRoutingModule } from './/app-routing.module';
-import {MainRoutingModule} from './pages/main/main-routing.module';
 import {SetupModule} from './pages/setup/setup.module';
+import { UselessDirective } from './useless.directive';
+import { ObservableComponent } from './test/observable/observable.component';
+//import { HighlightDirective } from './highlight.directive';
 
 registerLocaleData(zh);
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UselessDirective,
+    ObservableComponent,
+    //HighlightDirective
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,6 @@ registerLocaleData(zh);
     HttpClientModule,
     NgZorroAntdModule,
     AppRoutingModule,
-    MainRoutingModule,
     SetupModule,
     ReactiveFormsModule
   ],

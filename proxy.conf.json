@@ -1,0 +1,10 @@
+{
+  "/wecastsvr": {
+    "target": "http://xueban.vstudy.net.cn", 
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/wecastsvr": "/wecastsvr"
+    }
+  }
+}
