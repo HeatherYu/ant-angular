@@ -7,7 +7,7 @@ import { HeroListComponent } from './hero-list/hero-list.component';
 @NgModule({
   imports: [
     CommonModule,
-    HeroRoutingModule
+    HeroRoutingModule,
   ],
   declarations: [HeroComponent, HeroListComponent]
 })

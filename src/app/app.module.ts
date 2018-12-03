@@ -13,7 +13,6 @@ import { AppRoutingModule } from './/app-routing.module';
 import {SetupModule} from './pages/setup/setup.module';
 import { UselessDirective } from './useless.directive';
 import { ObservableComponent } from './test/observable/observable.component';
-//import { HighlightDirective } from './highlight.directive';
 
 registerLocaleData(zh);
 
@@ -22,7 +21,6 @@ registerLocaleData(zh);
     AppComponent,
     UselessDirective,
     ObservableComponent,
-    //HighlightDirective
   ],
   imports: [
     BrowserModule,

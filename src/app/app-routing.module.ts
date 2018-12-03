@@ -11,6 +11,8 @@ const routes: Routes = [
   }, {
     path: 'hero', loadChildren: './pages/heroes/hero/hero.module#HeroModule'
   }, {
+    path: 'rxjs', loadChildren: './test/rxjs/rxjs.module#RxjsModule'
+  }, {
     path: 'setup', component: SetupComponent
   }, {
     path: '', redirectTo: 'setup', pathMatch: 'full'
